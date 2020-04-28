@@ -5,4 +5,5 @@ The task was to deploy a high availability static website. The website should be
 To deploy this infrastructure there is a helper script included in the repository. It can be used like this:    
 
 ./create.sh [stackName1] network.yml network-parameters.json
+
 ./create.sh [stackName2] servers.yml servers-parameters.json
